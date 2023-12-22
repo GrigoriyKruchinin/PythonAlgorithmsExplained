@@ -5,11 +5,11 @@
 # или -1, если целевое значение не найдено или присутствует один раз.
 
 def find_second_element_index(arr, target):
-    first_index = -1
+    element_count = 0
     for i in range(len(arr)):
         if arr[i] == target:
-            if first_index == -1:
-                first_index = i
+            if element_count == 0:
+                element_count += 1
             else:
                 return i
     return -1
