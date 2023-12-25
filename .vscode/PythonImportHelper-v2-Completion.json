@@ -72,6 +72,42 @@
         "documentation": {}
     },
     {
+        "label": "find_last_occurrence",
+        "kind": 2,
+        "importPath": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "description": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "peekOfCode": "def find_last_occurrence(nums, target):\n    left, right = 0, len(nums) - 1\n    res = -1\n    while left <= right:\n        mid = (left + right) // 2\n        if nums[mid] == target:\n            res = mid\n            left = mid + 1\n        elif nums[mid] < target:\n            left = mid + 1",
+        "detail": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "documentation": {}
+    },
+    {
+        "label": "sorted_list",
+        "kind": 5,
+        "importPath": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "description": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "peekOfCode": "sorted_list = [1, 2, 2, 3, 4, 4, 4, 5, 6, 7, 7, 8, 9, 10]\ntarget_value = 4\nresult = find_last_occurrence(sorted_list, target_value)\nif result != -1:\n    print(f\"Последнее вхождение {target_value} в списке находится по индексу: {result}\")\nelse:\n    print(f\"{target_value} не найдено в списке.\")",
+        "detail": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "documentation": {}
+    },
+    {
+        "label": "target_value",
+        "kind": 5,
+        "importPath": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "description": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "peekOfCode": "target_value = 4\nresult = find_last_occurrence(sorted_list, target_value)\nif result != -1:\n    print(f\"Последнее вхождение {target_value} в списке находится по индексу: {result}\")\nelse:\n    print(f\"{target_value} не найдено в списке.\")",
+        "detail": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "description": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "peekOfCode": "result = find_last_occurrence(sorted_list, target_value)\nif result != -1:\n    print(f\"Последнее вхождение {target_value} в списке находится по индексу: {result}\")\nelse:\n    print(f\"{target_value} не найдено в списке.\")",
+        "detail": "Algorithms.Binary_search.examples.find_last_occurrence",
+        "documentation": {}
+    },
+    {
         "label": "find_rotation_index",
         "kind": 2,
         "importPath": "Algorithms.Binary_search.examples.find_rotation_index",
