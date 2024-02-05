@@ -4,6 +4,7 @@ def linear_search(arr, target):
             return i
     return -1
 
+
 # Пример использования:
 my_list = [4, 2, 8, 1, 9, 6]
 target_value = 8

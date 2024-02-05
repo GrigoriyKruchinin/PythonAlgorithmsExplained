@@ -1,8 +1,9 @@
 #                               Задача 2
-# Напишите функцию find_majority_element(arr), которая принимает список 
-# целых чисел arr и возвращает элемент, который встречается более чем n/2 раз, 
-# где n - длина списка. Если такого элемента нет, верните None. 
+# Напишите функцию find_majority_element(arr), которая принимает список
+# целых чисел arr и возвращает элемент, который встречается более чем n/2 раз,
+# где n - длина списка. Если такого элемента нет, верните None.
 # Используйте сортировку слиянием для решения этой задачи.
+
 
 def find_majority_element(arr):
     if len(arr) <= 1:
@@ -23,8 +24,8 @@ def find_majority_element(arr):
     if left_count > len(arr) // 2:
         return left_half
     if right_count > len(arr) // 2:
-        return right_half 
-    else: 
+        return right_half
+    else:
         return None
 
 
