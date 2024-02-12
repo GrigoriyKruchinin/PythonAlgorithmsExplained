@@ -45,6 +45,8 @@ my_graph = {
     "G": ["C"],
     "H": ["E"],
 }
+
+bfs(my_graph, "A")
 ```
 
 #### О-нотация (Big O Notation)
